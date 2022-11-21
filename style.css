@@ -1,0 +1,13 @@
+.none {
+  display: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
