@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <form>
+      <span>Add Task</span>
+      <input class="input" type="text" />
+      <span>Select Priority</span>
+      <select>
+        <option value="hp">high</option>
+        <option value="mp">moderate</option>
+      </select>
+      <button class="submit" type="submit">ADD</button>
+    </form>
+    <div class="priority">
+      <h2>Show Items:</h2>
+      <button class="btn--high">High Priority</button>
+      <button class="btn--moderate">Moderate Priority</button>
+      <button class="btn--all">All Priority</button>
+    </div>
+    <ul></ul>
+    <!-- script  -->
+    <script src="index.js"></script>
+  </body>
+</html>
